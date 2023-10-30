@@ -1,0 +1,144 @@
+/* default */
+
+html,
+body {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input,
+textarea,
+select,
+option {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+select {
+    appearance: none;
+}
+
+:focus,
+:active,
+a:focus,
+a:active {
+    outline: none;
+}
+
+header,
+nav,
+footer {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: inherit;
+}
+
+/* font-face */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+body {
+    font-size: 16px;
+    margin-top: 5rem;
+    min-height: 100vh;
+    background: #fafbf8;
+    color: #191d11;
+    font-family: 'Roboto';
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: #191d11;
+    margin-bottom: 16px;
+}
+
+table {
+    margin-bottom: 80px;
+}
+
+thead {
+    background: #AF1D7A;
+}
+
+tbody {
+    background: #E7A7F1;
+}
+
+th,
+td {
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px 32px;
+}
+
+th {
+    color: #F7FEF6;
+    font-weight: 500;
+    letter-spacing: .08em;
+}
+
+td {
+    font-weight: 500;
+    letter-spacing: .04em;
+}
